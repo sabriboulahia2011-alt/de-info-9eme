@@ -52,5 +52,7 @@ input.onGesture(Gesture.Shake, function () {
     basic.pause(100)
     basic.clearScreen()
     nnumber = 0
+    basic.pause(100)
+    nnumber = randint(1, 6)
 })
 
