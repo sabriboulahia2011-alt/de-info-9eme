@@ -1,4 +1,3 @@
-let nnumber = randint(1, 6)
 input.onGesture(Gesture.Shake, function () {
     if (nnumber == 1) {
         basic.showLeds(`
@@ -55,4 +54,5 @@ input.onGesture(Gesture.Shake, function () {
     basic.pause(100)
     nnumber = randint(1, 6)
 })
-
+let nnumber = 0
+nnumber = randint(1, 6)
